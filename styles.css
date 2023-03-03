@@ -1,0 +1,163 @@
+body{
+    font-family: "Montserrat";
+    text-align: center;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: "Montserrat-Bold";
+}
+
+p{
+    color: #8f8f8f;
+}
+
+/* headding */
+.big-heading{
+    font-family: "Montserrat-Bold";
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+.section-heading{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+/*container*/
+.container-fluid{
+    padding: 7% 15%;
+}
+
+/* section*/
+.colored-section{
+    background-color: #BFACE2;
+    color:#fff;
+}
+.white-section{
+    background-color: #fff;
+}
+
+/* Navigation bar*/
+.navbar{
+    padding:4.5rem;
+}
+.nav-item{
+    padding: 0 18px;
+}
+.nav-link{
+    font-family: "Montserrat-Light";
+    font-size: 1.2rem;
+}
+.navbar-brand{
+    font-family: "ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+/* buttons*/
+.download-button{
+    margin:5% 3% 5% 0%;
+}
+
+/* title section */
+
+#title{
+    background-color: #BFACE2;
+    color: #fff;
+    text-align: left;
+}
+
+#title.container-fluid{
+    padding: 3% 15% 7%;
+}
+
+/* title image */
+
+.rotate-image {
+    width:60%;
+    -webkit-transform: rotate(25deg);
+    -moz-transform: rotate(25deg);
+    -ms-transform: rotate(25deg);
+    -o-transform: rotate(25deg);
+    transform: rotate(25deg);
+    position: absolute;
+    right: 30%;
+}
+
+/* Features section*/
+
+#features{
+    position: relative;
+
+}
+#feature-title{
+    font-size: 1.5 rem;
+}
+.featuresbox {
+    padding:4.5%;
+
+}
+.heart{
+    margin-bottom:1rem;
+    color: #BFACE2;
+}
+.heart:hover{
+    color: darkmagenta;
+}
+/** testimonials**/
+#testimonials{
+    background-color: #BFACE2;    
+}
+
+.testimonial-text{
+    font-size: 3rem;
+    line-height:1.5;
+}
+
+.testimonials-img{
+    border-radius: 100%;
+    margin: 20px;
+    width:10%;
+
+}
+
+
+#press{
+    background-color: #BFACE2;
+    padding-bottom: 3%;
+    
+    
+}
+.press-image{
+    width: 15%;
+    margin: 20px 20px 50px;
+
+}
+/** pricing section **/
+
+#pricing{
+    padding: 100px;;
+}
+.price-text{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+.pricing-column{
+    padding: 3% 2%;
+}
+/* cta section*/ 
+
+/** footer*/
+.ic{
+    margin: 20px 10px;
+}
+@media (max-width: 1028px) {
+
+    #title {
+      text-align: center;
+    }
+  
+    .rotate-image {
+      position: static;
+      transform: rotate(0);
+    }
+  }
+  
